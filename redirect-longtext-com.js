@@ -1,0 +1,1 @@
+window.location = "https://thisisaverylongstringthatitypedtogetchrometodiplaytheservernotfoundpageanditwillrepeat.https://thisisaverylongstringthatitypedtogetchrometodiplaytheservernotfoundpageanditwillrepeat.com";
