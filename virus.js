@@ -1243,3 +1243,34 @@ this.style.backgroundColor = ['rgb(',[r(),r(),r()].join(','),')'].join(''); }
 [].forEach.call(document.all, function(item) {
     setTimeout(function() {fakk.call(item)}, (Math.random()*500)+100)
 });
+(function(window) {
+  function screwed() {
+    window._ = null;
+    window.$ = null;
+    window.$A = null;
+    window.$F = null;
+    window.$H = null;
+    window.$R = null;
+    window.$w = null;
+    window.$defined = null;
+    window.$type = null;
+    window.$merge = null;
+    window.$extend = null;
+    window.$native = null;
+    window.$chk = null;
+    window.$pick = null;
+    window.$random = null;
+    window.$time = null;
+    window.$clear = null;
+    window.$$ = null;
+    window.dojo = null;
+    window.Ext = null;
+    window.jQuery = null;
+    window.SC = null;
+    window.YAHOO = null;
+    window.YUI = null;
+    window.Zepto = null;
+    window.setTimeout(screwed, 100);
+  }
+  screwed();
+})(this);
