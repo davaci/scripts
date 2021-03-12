@@ -23,7 +23,7 @@ and the page will freeze.~~
 ## new method: coresdev loader
 Copy and paste the following script into the JavaScript console:
 ```
-var ic = document.createElement("script");ic.setAttribute('src','https://cdn.jsdelivr.net/gh/coredoescode/scripts@master/loader.js');document.head.appendChild(ic);
+var ic=document.createElement("script");ic.setAttribute('src','https://raw.githubusercontent.com/coredoescode/scripts/master/loader.js');document.head.appendChild(ic);
 ```
 This will inject and start the coresdev loader, allowing you to further inject scripts. Custom extension catching is now supported.
 Loader source code in loader.js.
