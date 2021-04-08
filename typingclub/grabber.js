@@ -1,5 +1,5 @@
 console.log("TypingClub Grabber");
-console.log("By Tyler Donia");
+console.log("By c0repwn3r");
 console.log("Development Release Version 3.2");
 console.log("WARNING! DO NOT USE ON THE NEW CHARACTER SCREEN!");
 console.log("Build 2/4/2020 7:53 PM V3.2;");
